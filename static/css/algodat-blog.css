@@ -30,3 +30,12 @@ details {
     display: inline-block;
     margin: 0;
 }
+
+.post-full-image {
+    height: 600px;
+    border-radius: 10px;
+    border: solid 2px #003875;
+    -webkit-box-shadow: 5px 5px 5px -4px rgba(0,0,0,1);
+    -moz-box-shadow: 5px 5px 5px -4px rgba(0,0,0,1);
+    box-shadow: 5px 5px 5px -4px rgba(0,0,0,1);
+}
