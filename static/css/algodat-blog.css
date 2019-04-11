@@ -26,7 +26,7 @@ details {
 	margin: 1vw 0;
 }
 
-.post-full-content img {
+.post-full-content img.ad-inline {
     display: inline-block;
     margin: 0;
 }
