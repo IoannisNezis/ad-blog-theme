@@ -25,3 +25,8 @@ details {
 .post-full-content hr {
 	margin: 1vw 0;
 }
+
+.post-full-content img {
+    display: inline-block;
+    margin: 0;
+}
