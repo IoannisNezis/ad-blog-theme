@@ -20,13 +20,12 @@ For more information read the official [setup guide](//gohugo.io/overview/instal
 
 ## Sample Configuration
 
-The following `config.toml` is used for the demo site. 
+The following `hugo.toml` is used for the demo site. 
 
 ```toml
 baseurl         = "/"
 theme           = "casper-two"
 languageCode    = "en-US"
-disqusShortname = ""
 paginate        = 6
 #SectionPagesMenu = "main"
 
@@ -37,7 +36,6 @@ paginate        = 6
   cover       = "img/blog-cover.jpg"
   description = "Here is a description of your site."
   metaDescription = ""
-  googleAnalytics = ""
   customCSS = []
   RSSLink = ""
 
@@ -60,6 +58,12 @@ paginate        = 6
 
   #casper or caspertwo
   singleViewStyle = "casper"
+
+[services]
+  [services.disqus]
+    shortname = ""
+  [services.googleAnalytics]
+    id = ''
 
 [permalinks]
   post = "/:slug/"
