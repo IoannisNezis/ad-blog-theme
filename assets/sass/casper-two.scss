@@ -1,3 +1,9 @@
+$text-color: #333;
+
+body {
+  color: $text-color;
+}
+
 .pagination {
     position: relative;
     width: 100%;
@@ -71,6 +77,14 @@
     }
 }
 
-.post-full-content pre code {
+.post-full-content pre {
     color: #e5eff5;
 }    
+
+code {
+    margin: 15px;
+}
+
+.code-block {
+    width: 100%;
+}
