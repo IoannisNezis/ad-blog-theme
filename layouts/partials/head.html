@@ -24,7 +24,6 @@
     {{ with resources.Get "sass/main.scss" | toCSS | minify | fingerprint}}
         <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
     {{ end }}
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css" />
     {{ range .Site.Params.customCSS }}
         <link rel="stylesheet" href="{{ . | absURL }}" />
     {{ end }}
