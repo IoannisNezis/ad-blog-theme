@@ -1,5 +1,5 @@
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 h1,
@@ -32,7 +32,8 @@ h6 {
     min-width: 100px;
 }
 
-.newer-posts, .older-posts {
+.newer-posts,
+.older-posts {
     position: absolute;
     display: inline-block;
     padding: 0 15px;
@@ -60,15 +61,16 @@ h6 {
 @media (min-width: 900px) {
     .ctsingle .post-feed {
         margin-top: -70px;
-        padding-top: 0;    
-    } 
+        padding-top: 0;
+    }
+
     .ctsingle .site-nav {
         position: relative;
         top: -70px;
-    }    
+    }
 }
 
-@media (min-width: 795px) {  
+@media (min-width: 795px) {
     .ctsingle .post-feed p {
         font-size: 1.8rem;
         line-height: 1.55em;
@@ -78,7 +80,8 @@ h6 {
 @media (max-width: 650px) {
     .hide {
         display: none !important;
-    }   
+    }
+
     .copyright {
         text-align: center;
     }
@@ -86,7 +89,7 @@ h6 {
 
 .post-full-content pre {
     color: #e5eff5;
-}    
+}
 
 .code-block {
     width: 100%;
