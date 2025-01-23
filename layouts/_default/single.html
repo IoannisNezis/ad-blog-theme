@@ -1,5 +1,4 @@
 {{ partial "head" . }}
-
 {{if ne .Site.Params.singleViewStyle "casper"}}<body class="ctsingle">
 {{else}}<body class="post-template">{{end}}
   <div class="site-wrapper"> 
@@ -31,7 +30,6 @@
     {{ partial "disqus" . }}
   </div>
 </main>
-
 {{if eq .Site.Params.singleViewStyle "casper"}}
 <aside class="read-next outer">
   <div class="inner">
